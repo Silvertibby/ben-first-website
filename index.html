@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #2c3e50, #1a252f, #0f161f);
             color: white;
             text-align: center;
             padding: 50px;
@@ -17,15 +17,17 @@
         h1 {
             font-size: 3.5rem;
             margin-bottom: 10px;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
         }
         p {
             font-size: 1.4rem;
             max-width: 600px;
             margin: 20px auto;
+            opacity: 0.95;
         }
         button {
-            background: white;
-            color: #667eea;
+            background: #e74c3c;
+            color: white;
             padding: 15px 30px;
             font-size: 1.2rem;
             border: none;
@@ -33,22 +35,24 @@
             cursor: pointer;
             margin: 20px;
             transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
         }
         button:hover {
-            transform: scale(1.1);
-            background: #f0f0f0;
+            transform: scale(1.08);
+            background: #c0392b;
         }
         #message {
             font-size: 1.5rem;
             margin-top: 30px;
             min-height: 50px;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
         }
     </style>
 </head>
 <body>
     <h1>Hey, I'm Ben 👋</h1>
     <p>From Richmond, British Columbia</p>
-    <p>This is my very first webpage made with Grok!</p>
+    <p>This is my first webpage — now in dark mode!</p>
     
     <button onclick="sayHello()">Click me!</button>
     
